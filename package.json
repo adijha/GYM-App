@@ -1,0 +1,19 @@
+{
+  "name": "social",
+  "version": "1.0.0",
+  "description": "Social Network To Connect People",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "author": "Aditya Kumar Jha",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
